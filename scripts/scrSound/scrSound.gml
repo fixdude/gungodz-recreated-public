@@ -12,3 +12,5 @@ function sound_loop(snd)
 #macro sound_stop audio_stop_sound
 #macro sound_stop_all audio_stop_all
 #macro sound_volume audio_sound_gain
+
+#macro scrMusic MusCont.play

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__init_d3d",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__init_d3d",
+  "parent":{
+    "name":"Drago3D",
+    "path":"folders/D3D/Drago3D.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

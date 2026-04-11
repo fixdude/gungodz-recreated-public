@@ -13,34 +13,34 @@ function scrLevels()
 	l_info = [
 		// WORLD 1
 		[
-			levelInfo("VENUS#SUPERMAX", 40),
-			levelInfo("DETENTION#CENTRE", 50),
-			levelInfo("GUARD#QUARTERS", 70),
-			levelInfo("???", 25)
+			new levelInfo("VENUS#SUPERMAX", 40),
+			new levelInfo("DETENTION#CENTRE", 50),
+			new levelInfo("GUARD#QUARTERS", 70),
+			new levelInfo("???", 35)
 		],
 		
 		// WORLD 2
 		[
-			levelInfo("SEWER#ENTRANCE", 40),
-			levelInfo("WASTEWATER", 40),
-			levelInfo("PUMPING#STATION", 60),
-			levelInfo("???", 25)
+			new levelInfo("SEWER#ENTRANCE", 40),
+			new levelInfo("WASTEWATER", 40),
+			new levelInfo("PUMPING#STATION", 60),
+			new levelInfo("???", 25)
 		],
 		
 		// WORLD 3
 		[
-			levelInfo("VENUS#SUPERMAX", 40),
-			levelInfo("DETENTION#CENTRE", 40),
-			levelInfo("GUARD#QUARTERS", 60),
-			levelInfo("???", 25)
+			new levelInfo("VENUS#SUPERMAX", 40),
+			new levelInfo("DETENTION#CENTRE", 40),
+			new levelInfo("GUARD#QUARTERS", 60),
+			new levelInfo("???", 25)
 		],
 		
 		// WORLD 4
 		[
-			levelInfo("VENUS#SUPERMAX", 40),
-			levelInfo("DETENTION#CENTRE", 40),
-			levelInfo("GUARD#QUARTERS", 60),
-			levelInfo("???", 25)
+			new levelInfo("VENUS#SUPERMAX", 40),
+			new levelInfo("DETENTION#CENTRE", 40),
+			new levelInfo("GUARD#QUARTERS", 60),
+			new levelInfo("???", 25)
 		],
 		
 	];

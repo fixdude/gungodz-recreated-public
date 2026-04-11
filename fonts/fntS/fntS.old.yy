@@ -115,7 +115,7 @@
   "kerningPairs":[],
   "last":126,
   "lineHeight":5,
-  "maintainGms1Font":true,
+  "maintainGms1Font":false,
   "name":"fntS",
   "parent":{
     "name":"Fonts",

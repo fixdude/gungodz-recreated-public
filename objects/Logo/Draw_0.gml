@@ -21,5 +21,5 @@ draw_sprite(sprLogoEye, blink, x, y + 6);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_bottom);
-draw_set_font(fntSn);
+draw_set_font(fntS);
 draw_text((room_width / 2) - 11, room_height - 20, string_hash_to_newline("PRESENTED BY VLAMBEER"/* AND VENUS PATROL"*/));

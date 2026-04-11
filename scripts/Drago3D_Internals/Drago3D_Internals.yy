@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Drago3D_Internals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Drago3D_Internals",
+  "parent":{
+    "name":"Drago3D",
+    "path":"folders/D3D/Drago3D.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"d3d_compatiblity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"d3d_compatiblity",
+  "parent":{
+    "name":"D3D",
+    "path":"folders/D3D.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

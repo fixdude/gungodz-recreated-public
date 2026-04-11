@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":9.743673,
+  "duration":234.35295,
   "exportDir":"",
   "name":"sndSECRET",
   "parent":{
