@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndBossGreet2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Boss (Gun God)",
+    "path":"folders/Sounds/SFX/Enemies/Boss (Gun God).yy",
   },
   "preload":true,
   "resourceType":"GMSound",

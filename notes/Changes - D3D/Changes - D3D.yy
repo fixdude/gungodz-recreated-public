@@ -3,8 +3,8 @@
   "%Name":"Changes - D3D",
   "name":"Changes - D3D",
   "parent":{
-    "name":"gungodz-recreated-public",
-    "path":"gungodz-recreated-public.yyp",
+    "name":"D3D",
+    "path":"folders/Kinda-Extensions/D3D.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

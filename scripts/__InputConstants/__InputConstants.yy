@@ -6,7 +6,7 @@
   "name":"__InputConstants",
   "parent":{
     "name":"Input",
-    "path":"folders/Input.yy",
+    "path":"folders/Kinda-Extensions/Input.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

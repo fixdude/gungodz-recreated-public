@@ -6,7 +6,7 @@
   "name":"db_debug_load",
   "parent":{
     "name":"Export & Import",
-    "path":"folders/db/Export & Import.yy",
+    "path":"folders/Kinda-Extensions/db/Export & Import.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"__InputPartyDeviceIsActive",
   "parent":{
     "name":"(System)",
-    "path":"folders/Input Plug-Ins/Party Multiplayer/(System).yy",
+    "path":"folders/Kinda-Extensions/Input Plug-Ins/Party Multiplayer/(System).yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

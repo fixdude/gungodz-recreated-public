@@ -6,7 +6,7 @@
   "name":"__InputClassCluster",
   "parent":{
     "name":"Classes",
-    "path":"folders/Input/(System)/Classes.yy",
+    "path":"folders/Kinda-Extensions/Input/(System)/Classes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

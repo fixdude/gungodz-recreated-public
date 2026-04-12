@@ -6,7 +6,7 @@
   "name":"d3d_draw_cylinder",
   "parent":{
     "name":"Geometry",
-    "path":"folders/D3D/Drago3D/Geometry.yy",
+    "path":"folders/Kinda-Extensions/D3D/Drago3D/Geometry.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

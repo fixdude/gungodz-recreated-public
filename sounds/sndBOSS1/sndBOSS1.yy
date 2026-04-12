@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndBOSS1",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Boss",
+    "path":"folders/Sounds/Music/Boss.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

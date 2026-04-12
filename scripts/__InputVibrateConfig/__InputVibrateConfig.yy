@@ -6,7 +6,7 @@
   "name":"__InputVibrateConfig",
   "parent":{
     "name":"Vibration",
-    "path":"folders/Input Plug-Ins/Vibration.yy",
+    "path":"folders/Kinda-Extensions/Input Plug-Ins/Vibration.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

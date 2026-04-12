@@ -6,7 +6,7 @@
   "name":"__InputInitializeSteam",
   "parent":{
     "name":"Initializing",
-    "path":"folders/Input/(System)/Initializing.yy",
+    "path":"folders/Kinda-Extensions/Input/(System)/Initializing.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

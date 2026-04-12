@@ -6,7 +6,7 @@
   "name":"__db_class",
   "parent":{
     "name":"(System)",
-    "path":"folders/db/(System).yy",
+    "path":"folders/Kinda-Extensions/db/(System).yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

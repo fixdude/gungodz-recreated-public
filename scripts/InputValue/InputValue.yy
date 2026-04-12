@@ -6,7 +6,7 @@
   "name":"InputValue",
   "parent":{
     "name":"Basics",
-    "path":"folders/Input/Checkers/Basics.yy",
+    "path":"folders/Kinda-Extensions/Input/Checkers/Basics.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

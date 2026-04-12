@@ -10,8 +10,8 @@
   "name":"PreIntro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Startup",
+    "path":"folders/Objects/Menu/Startup.yy",
   },
   "parentObjectId":null,
   "persistent":false,

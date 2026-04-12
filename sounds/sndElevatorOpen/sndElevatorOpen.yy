@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndElevatorOpen",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Generic",
+    "path":"folders/Sounds/SFX/Generic.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

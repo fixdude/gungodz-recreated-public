@@ -6,7 +6,7 @@
   "name":"__InputGetGamepadActive",
   "parent":{
     "name":"Device Scanning",
-    "path":"folders/Input/(System)/Device Scanning.yy",
+    "path":"folders/Kinda-Extensions/Input/(System)/Device Scanning.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -12,6 +12,9 @@ musicHandle = noone;
 
 play = function(mus)
 {
+	if !audio_exists(mus)
+		return;
+		
 	sound_stop_all();
 
 	audio_play_sound_on(emitter, mus, true, 100);

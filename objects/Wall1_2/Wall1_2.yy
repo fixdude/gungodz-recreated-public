@@ -26,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"tilWall1_2",
     "path":"sprites/tilWall1_2/tilWall1_2.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -6,7 +6,7 @@
   "name":"d3d_compatiblity",
   "parent":{
     "name":"D3D",
-    "path":"folders/D3D.yy",
+    "path":"folders/Kinda-Extensions/D3D.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"__InputGamepadTransformQuirks",
   "parent":{
     "name":"Gamepads",
-    "path":"folders/Input/(System)/Gamepads.yy",
+    "path":"folders/Kinda-Extensions/Input/(System)/Gamepads.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

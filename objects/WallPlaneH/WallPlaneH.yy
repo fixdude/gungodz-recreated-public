@@ -32,5 +32,5 @@
     "path":"sprites/tilWall1_2/tilWall1_2.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndBitchSee3",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Bitch (Chick)",
+    "path":"folders/Sounds/SFX/Enemies/Bitch (Chick).yy",
   },
   "preload":true,
   "resourceType":"GMSound",

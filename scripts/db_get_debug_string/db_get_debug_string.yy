@@ -6,7 +6,7 @@
   "name":"db_get_debug_string",
   "parent":{
     "name":"db",
-    "path":"folders/db.yy",
+    "path":"folders/Kinda-Extensions/db.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

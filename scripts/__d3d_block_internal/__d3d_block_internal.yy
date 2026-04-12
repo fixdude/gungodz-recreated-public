@@ -6,7 +6,7 @@
   "name":"__d3d_block_internal",
   "parent":{
     "name":"Internal",
-    "path":"folders/D3D/Drago3D/Geometry/Internal.yy",
+    "path":"folders/Kinda-Extensions/D3D/Drago3D/Geometry/Internal.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

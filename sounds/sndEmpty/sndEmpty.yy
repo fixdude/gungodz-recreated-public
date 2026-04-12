@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndEmpty",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Weapons",
+    "path":"folders/Sounds/SFX/Weapons.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

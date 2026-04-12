@@ -6,7 +6,7 @@
   "name":"InputGameHasFocus",
   "parent":{
     "name":"Miscellaneous",
-    "path":"folders/Input/Miscellaneous.yy",
+    "path":"folders/Kinda-Extensions/Input/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

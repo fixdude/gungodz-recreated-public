@@ -16,6 +16,13 @@ function instance_create(x, y, obj)
 	return instance_create_depth(x, y, myDepth, obj);
 }
 
+function draw_background_ext(sprite, x, y, xscale, yscale, rot, col, alpha)
+{
+	return draw_sprite_ext(sprite, 0, x, y, xscale, yscale, rot, col, alpha);
+}
+
+#macro draw_set_blend_mode gpu_set_blendmode
+
 #endregion
 
 #macro NUM_WORLDS 4

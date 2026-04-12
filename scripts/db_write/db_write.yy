@@ -6,7 +6,7 @@
   "name":"db_write",
   "parent":{
     "name":"Access",
-    "path":"folders/db/Access.yy",
+    "path":"folders/Kinda-Extensions/db/Access.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

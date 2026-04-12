@@ -3,7 +3,7 @@ if angry == true
 else
 	alarm[2] = 30 + random(60);
 
-scrTarget();
+//scrTarget();
 
 if active == true
 {

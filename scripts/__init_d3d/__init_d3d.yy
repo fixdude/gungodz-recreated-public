@@ -6,7 +6,7 @@
   "name":"__init_d3d",
   "parent":{
     "name":"Drago3D",
-    "path":"folders/D3D/Drago3D.yy",
+    "path":"folders/Kinda-Extensions/D3D/Drago3D.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,5 +1,5 @@
 event_inherited();
-scrAwareness();
+//scrAwareness();
 
 if active == true
 {

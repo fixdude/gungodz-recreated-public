@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndLEVEL2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Level",
+    "path":"folders/Sounds/Music/Level.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sndRocketeerSee4",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Rocketeer",
+    "path":"folders/Sounds/SFX/Enemies/Rocketeer.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

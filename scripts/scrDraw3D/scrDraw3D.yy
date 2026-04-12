@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrDraw3D",
+  "%Name":"scrDraw3d",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrDraw3D",
+  "name":"scrDraw3d",
   "parent":{
     "name":"Draw",
     "path":"folders/Scripts/Draw.yy",

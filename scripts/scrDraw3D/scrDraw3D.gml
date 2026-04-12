@@ -1,4 +1,4 @@
-function scrDraw3D()
+function scrDraw3d()
 {
 	with Bak
 	{
@@ -88,7 +88,14 @@ function scrDraw3D()
 		if glow == 1
 			d3d_set_fog(false, c_black, -10, Player.hdr);
 	
-		d3d_draw_wall(x + lengthdir_x(size / 2, other.angle + 90), y + lengthdir_y(size / 2, other.angle + 90), size + z, x + lengthdir_x(size / 2, other.angle - 90), y + lengthdir_y(size / 2, other.angle - 90), z, tt1, 1, 1);
+		d3d_draw_wall(
+		x + lengthdir_x(size / 2, other.angle + 90),
+		y + lengthdir_y(size / 2, other.angle + 90),
+		size + z,
+		x + lengthdir_x(size / 2, other.angle - 90),
+		y + lengthdir_y(size / 2, other.angle - 90),
+		z,
+		tt1, 1, 1);
 	
 		if glow == 1 && Player.fog == 1
 			d3d_set_fog(true, c_black, -10, Player.hdr);
@@ -100,13 +107,12 @@ function scrDraw3D()
 		d3d_draw_floor(x, y, 31.95, x + 32, y + 32, 31.95, ttC, 1, 1);
 	}
 
-	if (!instance_exists(LEVEL1) && !instance_exists(LEVEL5))
+	if !instance_exists(LEVEL1) && !instance_exists(LEVEL5)
 	{
-		with (Start)
+		with Start
 		{
 			d3d_draw_floor(x, y, 0.05, x + 32, y + 32, 0.05, ttF, 1, 1);
 			d3d_draw_floor(x, y, 31.95, x + 32, y + 32, 31.95, ttC, 1, 1);
 		}
 	}
-
 }

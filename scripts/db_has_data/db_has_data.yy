@@ -6,7 +6,7 @@
   "name":"db_has_data",
   "parent":{
     "name":"db",
-    "path":"folders/db.yy",
+    "path":"folders/Kinda-Extensions/db.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

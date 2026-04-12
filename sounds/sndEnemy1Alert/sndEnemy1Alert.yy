@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.1273469,
+  "duration":0.12734693,
   "exportDir":"",
   "name":"sndEnemy1Alert",
   "parent":{

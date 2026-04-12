@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"(System)",
-    "path":"folders/Input/(System).yy",
+    "path":"folders/Kinda-Extensions/Input/(System).yy",
   },
   "parentObjectId":null,
   "persistent":true,

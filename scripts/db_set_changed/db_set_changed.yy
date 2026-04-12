@@ -6,7 +6,7 @@
   "name":"db_set_changed",
   "parent":{
     "name":"Properties",
-    "path":"folders/db/Properties.yy",
+    "path":"folders/Kinda-Extensions/db/Properties.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -31,11 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"tilWall",
     "path":"sprites/tilWall/tilWall.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
