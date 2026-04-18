@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":1,
   "first":32,
-  "fontName":"Visitor TT1 (BRK)",
+  "fontName":"Visitor TT1 BRK",
   "glyphOperations":0,
   "glyphs":{
     "100":{"character":100,"h":36,"offset":0,"shift":24,"w":20,"x":50,"y":2,},

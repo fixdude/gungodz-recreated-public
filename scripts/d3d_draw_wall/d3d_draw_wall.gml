@@ -11,7 +11,7 @@
 /// @param {real} [vrepeat] The number of vertical texture repetitions (defaults to 1)
 /// @param {real} [c] The vertex color to draw the wall with (defaults to the current draw color)
 /// @param {real} [a] The vertex color to draw the wall with (defaults to the current draw alpha)
-function d3d_draw_wall(x1, y1, z1, x2, y2, z2, tex = -1, hrepeat = 1, vrepeat = 1, c = draw_get_colour(), a = draw_get_alpha()) {
+function d3d_draw_wall(x1, y1, z1, x2, y2, z2, tex = -1, uvs = [0, 0, 1, 1, 0, 0, 0, 0], hrepeat = 1, vrepeat = 1, c = draw_get_colour(), a = draw_get_alpha()) {
     static vertex = Drago3D_Internals.Vertex;
     static format = Drago3D_Internals.format;
     

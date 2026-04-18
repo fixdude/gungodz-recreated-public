@@ -13,7 +13,10 @@
     "name":"Doors",
     "path":"folders/Objects/Assets/Doors.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"door",
+    "path":"objects/door/door.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

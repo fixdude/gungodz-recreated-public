@@ -34,9 +34,9 @@ if init == true
 				if night > 13 && !instance_exists(SUPERCREDITS)
 					instance_create(0, 0, SUPERCREDITS);
 				
-				draw_background_ext(bakSkyNight, (Player.angle / 360) * 640, 0, 1, 1, 0, c_white, night / 2);
-				draw_background_ext(bakSkyNight, ((Player.angle / 360) * 640) - 640, 0, 1, 1, 0, c_white, night / 2);
-				draw_background_ext(bakSkyNight, ((Player.angle / 360) * 640) - 1280, 0, 1, 1, 0, c_white, night / 2);
+				draw_sprite_ext(bakSkyNight, 0, (Player.angle / 360) * 640, 0, 1, 1, 0, c_white, night / 2);
+				draw_sprite_ext(bakSkyNight, 0, ((Player.angle / 360) * 640) - 640, 0, 1, 1, 0, c_white, night / 2);
+				draw_sprite_ext(bakSkyNight, 0, ((Player.angle / 360) * 640) - 1280, 0, 1, 1, 0, c_white, night / 2);
 			}
 		}
 		
@@ -71,9 +71,8 @@ if init == true
 	else
 		d3d_set_projection_ext(
 			Player.x + xshake, Player.y + yshake, Player.z + sin(Player.walk / 10) + zshake + max(0, (BackCont.night * 10) - 100),
-			Player.x + lengthdir_x(64, angle) + xshake, Player.y + lengthdir_y(64, angle) + yshake, 16 + sin(Player.walk / 10) + zshake + max(0, (BackCont.night * 10) - 100),
+			Player.x + lengthdir_x(64, angle) + xshake, Player.y + lengthdir_y(64, angle) + yshake, Player.z + sin(Player.walk / 10) + zshake + max(0, (BackCont.night * 10) - 100),
 			Player.tilt, 0, 1, 60, 1.6, 1, 10000);
 	
 	scrDraw3d();
-	scrDrawHUD();
 }

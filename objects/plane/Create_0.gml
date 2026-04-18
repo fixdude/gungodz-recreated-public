@@ -1,1 +1,1 @@
-glow = 0;
+glow = false;

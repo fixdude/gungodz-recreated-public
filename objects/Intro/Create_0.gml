@@ -1,9 +1,5 @@
-//d3d_end();
-instance_create(x, y, UberCont);
-instance_create(x, y, MusCont);
-
-//if file_exists(working_directory + "gg.sav")
-//	scrLoad();
-
-room_goto(tst4_1);
-//room_goto(menLevelSelect);
+image_alpha = -0.2;
+grow = 1;
+image_speed = 0;
+x = room_width / 2;
+y = room_height / 2;

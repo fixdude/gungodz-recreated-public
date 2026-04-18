@@ -34,5 +34,5 @@
     "path":"sprites/tilCeil4/tilCeil4.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

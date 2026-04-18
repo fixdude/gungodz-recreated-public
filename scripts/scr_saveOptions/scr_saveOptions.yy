@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_saveOptions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_saveOptions",
+  "parent":{
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

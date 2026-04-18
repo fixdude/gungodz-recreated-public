@@ -1,10 +1,10 @@
+if use_steam
+	steam_on = steam_initialised();
+
 // Player variables
 p_health = 100;
 p_gun = 1;
-p_ammo[1] = 20;
-p_ammo[2] = 0;
-p_ammo[3] = 0;
-p_ammo[4] = 0;
+p_ammo = [0, 20, 0, 0, 0];
 tim = 0;
 totalkills = 0;
 totalstars = 0;
@@ -14,8 +14,16 @@ lev = 1;
 wld = 1;
 sensitivity = 100;
 focus = true;
-cur = native_cursor_create_from_sprite(sprCursor);
-native_cursor_set(cur);
+
+cursor = false;
+if use_native_cursor
+{
+	cur = native_cursor_create_from_sprite(sprCursor);
+	native_cursor_set(cur);
+	cursor = true;
+}
+
+scr_startAchievements();
 
 repeat NUM_WORLDS
 {
@@ -40,3 +48,4 @@ gotgold = false;
 gold = false;
 hard = false;
 musicon = 1;
+achievQueue = ds_queue_create();

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_startup",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

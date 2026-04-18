@@ -6,7 +6,7 @@
 /// @param {real} y2 The ending y coordinate of the floor
 /// @param {real} z The z coordinate of the floor
 /// @param {pointer.Texture|real} tex The texture to draw the floor with (defaults to -1 for no texture)
-function d3d_draw_floor_simple(x1, y1, x2, y2, z, tex = -1) {
+function d3d_draw_floor_simple(x1, y1, x2, y2, z, tex = -1, uvs = [0, 0, 1, 1, 0, 0, 0, 0]) {
     static vertex = Drago3D_Internals.Vertex;
     static format = Drago3D_Internals.format;
     
@@ -33,12 +33,13 @@ function d3d_draw_floor_simple(x1, y1, x2, y2, z, tex = -1) {
         var cy2 = 0.5;
         var cz = 0;
         
-        vertex(vb, cx1, cy1, cz, 0, 0, 1, 0, 0, c_white, 1);
-        vertex(vb, cx1, cy2, cz, 0, 0, 1, 0, 1, c_white, 1);
-        vertex(vb, cx2, cy2, cz, 0, 0, 1, 1, 1, c_white, 1);
-        vertex(vb, cx2, cy2, cz, 0, 0, 1, 1, 1, c_white, 1);
-        vertex(vb, cx2, cy1, cz, 0, 0, 1, 1, 0, c_white, 1);
-        vertex(vb, cx1, cy1, cz, 0, 0, 1, 0, 0, c_white, 1);
+		var cl = uvs[0], ct = uvs[1], cr = uvs[2], cb = uvs[3];
+        vertex(vb, cx1, cy1, cz, 0, 0, 1, cl, ct, c_white, 1);
+        vertex(vb, cx1, cy2, cz, 0, 0, 1, cl, cb, c_white, 1);
+        vertex(vb, cx2, cy2, cz, 0, 0, 1, cr, cb, c_white, 1);
+        vertex(vb, cx2, cy2, cz, 0, 0, 1, cr, cb, c_white, 1);
+        vertex(vb, cx2, cy1, cz, 0, 0, 1, cr, ct, c_white, 1);
+        vertex(vb, cx1, cy1, cz, 0, 0, 1, cl, ct, c_white, 1);
         
         vertex_end(vb);
         vertex_freeze(vb);

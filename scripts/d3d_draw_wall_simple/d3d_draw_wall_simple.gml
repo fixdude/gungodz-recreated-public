@@ -7,7 +7,8 @@
 /// @param {real} y2 The ending y coordinate of the wall
 /// @param {real} z2 The ending z coordinate of the wall
 /// @param {pointer.Texture|real} tex The texture to draw the wall with (defaults to -1 for no texture)
-function d3d_draw_wall_simple(x1, y1, z1, x2, y2, z2, tex = -1) {
+/// @param {array} uvs See sprite_get_uvs function
+function d3d_draw_wall_simple(x1, y1, z1, x2, y2, z2, tex = -1, uvs = [0, 0, 1, 1, 0, 0, 0, 0]) {
     static vertex = Drago3D_Internals.Vertex;
     static format = Drago3D_Internals.format;
     
@@ -37,12 +38,13 @@ function d3d_draw_wall_simple(x1, y1, z1, x2, y2, z2, tex = -1) {
         var nx = ydiff / l;
         var ny = -xdiff / l;
         
-        vertex(vb, x1, y1, z1, nx, ny, 0, 0, 0, c_white, 1);
-        vertex(vb, x2, y2, z1, nx, ny, 0, 1, 0, c_white, 1);
-        vertex(vb, x2, y2, z2, nx, ny, 0, 1, 1, c_white, 1);
-        vertex(vb, x2, y2, z2, nx, ny, 0, 1, 1, c_white, 1);
-        vertex(vb, x1, y1, z2, nx, ny, 0, 0, 1, c_white, 1);
-        vertex(vb, x1, y1, z1, nx, ny, 0, 0, 0, c_white, 1);
+		var cl = uvs[0], ct = uvs[1], cr = uvs[2], cb = uvs[3];
+        vertex(vb, x1, y1, z1, nx, ny, 0, cl, ct, c_white, 1);
+        vertex(vb, x2, y2, z1, nx, ny, 0, cr, ct, c_white, 1);
+        vertex(vb, x2, y2, z2, nx, ny, 0, cr, cb, c_white, 1);
+        vertex(vb, x2, y2, z2, nx, ny, 0, cr, cb, c_white, 1);
+        vertex(vb, x1, y1, z2, nx, ny, 0, cl, cb, c_white, 1);
+        vertex(vb, x1, y1, z1, nx, ny, 0, cl, ct, c_white, 1);
         
         vertex_end(vb);
         vertex_freeze(vb);

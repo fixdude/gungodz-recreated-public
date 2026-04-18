@@ -51,18 +51,23 @@ function d3d_set_projection_ortho(x, y, w, h, angle)
 	camera_apply(c);
 }
 
+global.d3d = false;
 /// @description d3d - enable 3D
 function d3d_start()
 {
+	global.d3d = true;
 	gpu_set_ztestenable(true);
 	gpu_set_zwriteenable(true);
+	gpu_set_alphatestenable(true);
 	return true;
 }
 
 /// @description d3d - disable 3d
 function d3d_end()
 {
+	global.d3d = false;
 	gpu_set_ztestenable(false);
 	gpu_set_zwriteenable(false);
+	gpu_set_alphatestenable(false);
 	return true;
 }

@@ -1,5 +1,6 @@
 window_mouse_set(window_get_width() / 2, window_get_height() / 2);
 angle = 90;
+angle_v = 0;
 walk = 0;
 fog = 1;
 hdr = 320;
@@ -19,8 +20,10 @@ my_health = 100;
 wep = UberCont.p_gun;
 knifewep = 1;
 nextwep = 0;
-//scrWeps();
+scrWeps();
 red = 0;
 hitx = x;
 hity = y;
 playerIndex = 0;
+zspeed = 0;
+walkspeed = 1;

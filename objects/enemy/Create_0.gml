@@ -1,4 +1,5 @@
 glow = false;
+invincible = false;
 
 if place_free(x + 16, y + 16)
 {
@@ -8,6 +9,7 @@ if place_free(x + 16, y + 16)
 
 image_speed = 0.4;
 tt1 = sprite_get_texture(sprite_index, -1);
+uvs1 = sprite_get_uvs(sprite_index, -1);
 active = false;
 aware = false;
 target = 0;

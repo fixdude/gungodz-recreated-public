@@ -13,7 +13,10 @@
     "name":"Moles",
     "path":"folders/Objects/Enemies/Moles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"enemy",
+    "path":"objects/enemy/enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,5 +39,5 @@
     "path":"sprites/sprPrisoner/sprPrisoner.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

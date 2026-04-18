@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Screen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Screen",
+  "parent":{
+    "name":"Extra",
+    "path":"folders/Scripts/Extra.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

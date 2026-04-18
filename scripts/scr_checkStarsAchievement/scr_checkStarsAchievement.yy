@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_checkStarsAchievement",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_checkStarsAchievement",
+  "parent":{
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_resetSettings",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_resetSettings",
+  "parent":{
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

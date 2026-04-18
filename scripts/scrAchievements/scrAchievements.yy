@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrAchievements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrAchievements",
+  "parent":{
+    "name":"Extra",
+    "path":"folders/Scripts/Extra.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

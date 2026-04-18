@@ -3,7 +3,9 @@ function scrWallPlanes()
 	with Wall
 	{
 		tt1 = sprite_get_texture(sprite_index, 0);
+		var _uvs1 = sprite_get_uvs(sprite_index, 0);
 		tt2 = sprite_get_texture(sprite_index, 1);
+		var _uvs2 = sprite_get_uvs(sprite_index, 1);
 	
 		if place_free(x, y - 1) && place_meeting(x, y - 1, Tile)
 		{
@@ -14,7 +16,9 @@ function scrWallPlanes()
 				x2 = round(x + 32);
 				y2 = y1;
 				tt1 = other.tt1;
+				uvs1 = _uvs1;
 				tt2 = other.tt2;
+				uvs2 = _uvs2;
 				h = other.h;
 			
 				if place_meeting(x, y - 2, DoorV)
@@ -56,7 +60,9 @@ function scrWallPlanes()
 				x2 = round(x + 32);
 				y2 = round(y + 32);
 				tt1 = other.tt1;
+				uvs1 = _uvs1;
 				tt2 = other.tt2;
+				uvs2 = _uvs2;
 				h = other.h;
 			
 				if place_meeting(x, y + 2, DoorV)
@@ -92,7 +98,9 @@ function scrWallPlanes()
 				x2 = round(x);
 				y2 = round(y + 32);
 				tt1 = other.tt1;
+				uvs1 = _uvs1;
 				tt2 = other.tt2;
+				uvs2 = _uvs2;
 				h = other.h;
 			
 				if place_meeting(x - 2, y, DoorH)
@@ -128,7 +136,9 @@ function scrWallPlanes()
 				x2 = round(x + 32);
 				y2 = round(y + 32);
 				tt1 = other.tt1;
+				uvs1 = _uvs1;
 				tt2 = other.tt2;
+				uvs2 = _uvs2;
 				h = other.h;
 			
 				if place_meeting(x + 2, y, DoorH)

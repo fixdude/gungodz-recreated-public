@@ -10,7 +10,7 @@
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
-  "For3D":true,
+  "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"67ce6c85-7359-44c3-823b-6aaa0645bcc7","name":"67ce6c85-7359-44c3-823b-6aaa0645bcc7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],

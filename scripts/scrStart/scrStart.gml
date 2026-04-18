@@ -1,5 +1,14 @@
 function scrStart()
 {
+	scrAchievement(ACHIEVEMENT.A1);
+	scrAchievement(ACHIEVEMENT.A2);
+	scrAchievement(ACHIEVEMENT.A3);
+	scrAchievement(ACHIEVEMENT.A4);
+	scrAchievement(ACHIEVEMENT.A5);
+	scrAchievement(ACHIEVEMENT.A6);
+	scrAchievement(ACHIEVEMENT.A7);
+	scrAchievement(ACHIEVEMENT.A8);
+	
 	if !instance_exists(LEVEL1)
 		sound_play(sndElevatorOpen);
 
@@ -27,7 +36,6 @@ function scrStart()
 	if ind != string_digits(ind)
 	|| real(ind) > 5 || ind == "0"
 		ind = "1";
-	show_message(ind);
 	
 	var Ceiling = asset_get_index($"Ceil{ind}");
 	var Back = asset_get_index($"Bak{ind}");
@@ -37,7 +45,6 @@ function scrStart()
 		Back = Bak1;
 	var sprDoor = asset_get_index($"sprDoor{ind}");
 	var sprDoorSide = asset_get_index($"sprDoor{ind}Side");
-	show_message(sprDoorSide);
 	var sprDoorS = asset_get_index($"sprDoor{ind}S");
 	var sprBar = asset_get_index($"sprBar{ind}");
 	
@@ -49,8 +56,13 @@ function scrStart()
 	{
 		tt1 = sprite_get_texture(sprDoor, 0);
 		ttS = sprite_get_texture(sprDoorS, 0);
+		uvs1 = sprite_get_uvs(sprDoor, 0);
+		uvsS = sprite_get_uvs(sprDoorS, 0);
 	}
 	
 	with bar
+	{
 		tt1 = sprite_get_texture(sprBar, 0);
+		uvs1 = sprite_get_uvs(sprBar, 0);
+	}
 }
