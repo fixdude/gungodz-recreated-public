@@ -26,7 +26,8 @@ function db_debug_load(_path)
     }
     finally
     {
-        buffer_delete(_buffer);
+		if buffer_exists(_buffer)
+			buffer_delete(_buffer);
     }
     
     return _database;

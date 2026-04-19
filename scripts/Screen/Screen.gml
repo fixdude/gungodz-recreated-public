@@ -32,3 +32,5 @@ function Screen()
 		return [s, s / Screen.aspect_ratio];
 	}
 }
+
+Screen();

@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"gungodz-recreated-public",
+  "%Name":"GunGodzPlus",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -133,7 +133,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.4.222",
   },
-  "name":"gungodz-recreated-public",
+  "name":"GunGodzPlus",
   "resources":[
     {"id":{"name":"native_cursor_v1_compat","path":"extensions/native_cursor_v1_compat/native_cursor_v1_compat.yy",},},
     {"id":{"name":"native_cursor","path":"extensions/native_cursor/native_cursor.yy",},},
@@ -222,6 +222,7 @@
     {"id":{"name":"Wall2_3","path":"objects/Wall2_3/Wall2_3.yy",},},
     {"id":{"name":"Wall2_4","path":"objects/Wall2_4/Wall2_4.yy",},},
     {"id":{"name":"Wall2_5","path":"objects/Wall2_5/Wall2_5.yy",},},
+    {"id":{"name":"Wall4_4","path":"objects/Wall4_4/Wall4_4.yy",},},
     {"id":{"name":"WallH","path":"objects/WallH/WallH.yy",},},
     {"id":{"name":"wallParent","path":"objects/wallParent/wallParent.yy",},},
     {"id":{"name":"WallPlaneH","path":"objects/WallPlaneH/WallPlaneH.yy",},},
@@ -586,6 +587,8 @@
     {"id":{"name":"scrLevels","path":"scripts/scrLevels/scrLevels.yy",},},
     {"id":{"name":"scrLOS","path":"scripts/scrLOS/scrLOS.yy",},},
     {"id":{"name":"scrSave","path":"scripts/scrSave/scrSave.yy",},},
+    {"id":{"name":"scrSetSpriteAlpha","path":"scripts/scrSetSpriteAlpha/scrSetSpriteAlpha.yy",},},
+    {"id":{"name":"scrShake","path":"scripts/scrShake/scrShake.yy",},},
     {"id":{"name":"scrSound","path":"scripts/scrSound/scrSound.yy",},},
     {"id":{"name":"scrStart","path":"scripts/scrStart/scrStart.yy",},},
     {"id":{"name":"scrSuperCredits","path":"scripts/scrSuperCredits/scrSuperCredits.yy",},},
@@ -703,9 +706,6 @@
     {"id":{"name":"sndSuperFuckerSee3","path":"sounds/sndSuperFuckerSee3/sndSuperFuckerSee3.yy",},},
     {"id":{"name":"sndTentacleDie","path":"sounds/sndTentacleDie/sndTentacleDie.yy",},},
     {"id":{"name":"sndTentacleHit","path":"sounds/sndTentacleHit/sndTentacleHit.yy",},},
-    {"id":{"name":"alfBarrelEntrance","path":"sprites/alfBarrelEntrance/alfBarrelEntrance.yy",},},
-    {"id":{"name":"alfExitDoor","path":"sprites/alfExitDoor/alfExitDoor.yy",},},
-    {"id":{"name":"alfWall4_4","path":"sprites/alfWall4_4/alfWall4_4.yy",},},
     {"id":{"name":"background2","path":"sprites/background2/background2.yy",},},
     {"id":{"name":"bakSky4","path":"sprites/bakSky4/bakSky4.yy",},},
     {"id":{"name":"bakSkyNight","path":"sprites/bakSkyNight/bakSkyNight.yy",},},

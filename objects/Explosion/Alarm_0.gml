@@ -1,0 +1,1 @@
+sound_play_3d(sndExplosion, x, y, z);
