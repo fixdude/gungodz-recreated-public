@@ -16,7 +16,7 @@ function scr_startup()
 		InputBindingsReset(true);
 	
 	Screen.size = db_read(global.dbSettings, 200, "screen mult");
-	Screen.setRatio(db_read(global.dbSettings, 16/9, "screen ratio"));
+	Screen.setRatio(db_read(global.dbSettings, 16/10, "screen ratio"));
 	Screen.setDisplay(db_read(global.dbSettings, 0, "antialiasing"), db_read(global.dbSettings, false, "vsync"));
 	Screen.sync().apply();
 }
