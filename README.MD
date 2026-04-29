@@ -1,4 +1,4 @@
-![Cool](https:// "GUN GODZ+ Banner")
+![Cool](https://github.com/fixdude/gungodz-plus/blob/main/github/gungodzplusbanner.png "GUN GODZ+ Banner")
 # This is the official repository for the GUN GODZ+ mod.
 ### *Check out the [original](https://store.steampowered.com/app/522940/GUN_GODZ/), if you haven't already.*
 GUN GODZ+ is a mod that aims to expand the game with various QOL changes and extra options. There are planned features like a modding API and online multiplayer, similar to NTT.
