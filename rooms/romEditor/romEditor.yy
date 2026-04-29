@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"romEditor",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/romEditor/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,

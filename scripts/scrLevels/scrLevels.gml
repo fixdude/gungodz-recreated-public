@@ -9,12 +9,11 @@ function scrLevels()
 	// Worlds/Levels are indexed from 1 instead of 0 in the original
 	var noLevel = new levelInfo("AGH!", 00);
 	
-	fog = [000, 320, 320, 240, 480];
 	l_info = [
-		[noLevel],
+		[000],
 		// WORLD 1
 		[
-			noLevel,
+			320,
 			new levelInfo("VENUS#SUPERMAX", 40),
 			new levelInfo("DETENTION#CENTRE", 50),
 			new levelInfo("GUARD#QUARTERS", 70),
@@ -23,7 +22,7 @@ function scrLevels()
 		
 		// WORLD 2
 		[
-			noLevel,
+			320,
 			new levelInfo("SEWER#ENTRANCE", 00),
 			new levelInfo("WASTEWATER", 00),
 			new levelInfo("PUMPING#STATION", 00),
@@ -32,7 +31,7 @@ function scrLevels()
 		
 		// WORLD 3
 		[
-			noLevel,
+			240,
 			new levelInfo("BASEMENT", 00),
 			new levelInfo("FACILITY", 00),
 			new levelInfo("WINE#HEAVEN", 00),
@@ -41,7 +40,7 @@ function scrLevels()
 		
 		// WORLD 4
 		[
-			noLevel,
+			480,
 			new levelInfo("HALLWAY", 00),
 			new levelInfo("LOBBY", 00),
 			new levelInfo("ROOFTOP", 00),

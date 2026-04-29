@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrFire",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrFire",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Game/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -8,18 +8,23 @@ function scrDrawHUD()
 
 	if Player.dead == false
 	{
+		var weapon = Player.weapons[Player.wep];
+		var wepspr = weapon.sprite_index;
+		var wepind = Player.gunanim;
+		var wepy = Player.guny;
+		
 		if BackCont.gold == true
 		{
-			draw_sprite_ext(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4), h + Player.guny + credithudx, 1, 1, 0, make_color_rgb(222, 186, 84), 1);
+			draw_sprite_ext(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4), h + wepy + credithudx, 1, 1, 0, make_color_rgb(222, 186, 84), 1);
 			draw_set_blend_mode(bm_add);
-			draw_sprite_ext(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4), h + Player.guny + credithudx, 1, 1, 0, c_yellow, 1);
-			draw_sprite_ext(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4), h + Player.guny + credithudx, 1, 1, 0, c_white, 0.4);
-			draw_sprite_ext(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4) + 1, h + Player.guny + credithudx, 1, 1, 0, c_white, 0.4);
-			draw_sprite_ext(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4) - 1, h + Player.guny + credithudx, 1, 1, 0, c_white, 0.4);
+			draw_sprite_ext(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4), h + wepy + credithudx, 1, 1, 0, c_yellow, 1);
+			draw_sprite_ext(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4), h + wepy + credithudx, 1, 1, 0, c_white, 0.4);
+			draw_sprite_ext(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4) + 1, h + wepy + credithudx, 1, 1, 0, c_white, 0.4);
+			draw_sprite_ext(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4) - 1, h + wepy + credithudx, 1, 1, 0, c_white, 0.4);
 			draw_set_blend_mode(bm_normal);
 		}
 		else
-			draw_sprite(Player.wepspr[Player.wep], abs(Player.gunanim), m + (sin(Player.walk / 20) * 4), h + Player.guny + credithudx);
+			draw_sprite(wepspr, abs(wepind), m + (sin(Player.walk / 20) * 4), h + wepy + credithudx);
 	
 		draw_set_color(c_red);
 		draw_set_alpha(Player.red);

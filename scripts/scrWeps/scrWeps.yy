@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scrWeps",
   "parent":{
-    "name":"Game",
-    "path":"folders/Scripts/Game.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Game/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

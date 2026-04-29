@@ -38,7 +38,7 @@ if active == true
 if distance_to_object(Rocket) < 200
 {
 	var rok = instance_nearest(x, y, Rocket);
-	motion_add(point_direction(rok.x, rok.y, x, y), 0.4);
+	motion_addf(point_direction(rok.x, rok.y, x, y), 0.4);
 }
 
 if target != noone

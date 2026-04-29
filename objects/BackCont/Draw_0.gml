@@ -45,7 +45,7 @@ if init == true
 	*/
 	
 	with Player
-		d3d_set_fog(fog, c_black, -10, hdr);
+		d3d_set_fog(fog == true, c_black, -10, hdr);
 	
 	xshake = random(shake) - (shake / 2);
 	yshake = random(shake) - (shake / 2);

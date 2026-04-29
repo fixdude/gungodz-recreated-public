@@ -1,5 +1,5 @@
-other.ammo[ind] += add_ammo;
-other.nextwep = ind;
+other.ammo[index] += add_ammo;
+other.nextwep = index;
 instance_destroy();
 sound_play(sndPickupGun);
 with StatCont

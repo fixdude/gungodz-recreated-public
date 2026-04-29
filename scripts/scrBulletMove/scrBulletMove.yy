@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrBulletMove",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrBulletMove",
+  "parent":{
+    "name":"Projectiles",
+    "path":"folders/Scripts/Game/Projectiles.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

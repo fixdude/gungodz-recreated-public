@@ -53,9 +53,9 @@ function __InputConfigVerbs()
 		
 	InputDefineVerb(INPUT_VERB.PAUSE, "pause", [vk_backspace, vk_escape], gp_start);
 	InputDefineVerb(INPUT_VERB.MENU_ACCEPT, "menu accept", vk_space, faceA);
-	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", [vk_lcontrol], [gp_face3, faceB, gp_shoulderr]);
+	InputDefineVerb(INPUT_VERB.SHOOT, "shoot", mb_left, [gp_face3, faceB, gp_shoulderr]);
 	InputDefineVerb(INPUT_VERB.NEXT_WEAPON, "next weapon", vk_lcontrol, [gp_face3, faceB]);
-	InputDefineVerb(INPUT_VERB.MELEE, "melee", vk_shift, [gp_face4, gp_shoulderl]);
+	InputDefineVerb(INPUT_VERB.MELEE, "melee", mb_right, [gp_face4, gp_shoulderl]);
 	
 	InputDefineVerb(INPUT_VERB.MAP, "map", vk_tab, INPUT_ON_PS5 ? gp_touchpadbutton : gp_select);
 	

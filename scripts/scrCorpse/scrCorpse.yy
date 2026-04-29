@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrCorpse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrCorpse",
+  "parent":{
+    "name":"Enemy",
+    "path":"folders/Scripts/Game/Enemy.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

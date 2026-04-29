@@ -1,4 +1,5 @@
 scr_startup();
+global.fog = 0;
 
 /*
 while true

@@ -1,1 +1,1 @@
-motion_add(point_direction(other.x, other.y, x, y), 2);
+motion_addf(point_direction(other.x, other.y, x, y), 2);

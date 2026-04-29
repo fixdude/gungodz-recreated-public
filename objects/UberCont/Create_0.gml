@@ -3,7 +3,7 @@ if use_steam
 
 // Player variables
 p_health = 100;
-p_gun = 1;
+p_gun = Weapons.Pistol;
 p_ammo = [0, 20, 0, 0, 0];
 tim = 0;
 totalkills = 0;

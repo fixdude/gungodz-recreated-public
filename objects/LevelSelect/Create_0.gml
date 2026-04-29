@@ -44,6 +44,7 @@ repeat NUM_WORLDS
 	{
 		with instance_create(dix, diy, LevelButton)
 		{
+			fog = other.l_info[wld, 0];
 			wld = other.wld;
 			lev = other.lev;
 		}

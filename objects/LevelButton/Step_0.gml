@@ -4,6 +4,7 @@ if InputMousePressed(mb_left)
 {
 	UberCont.lev = lev;
 	UberCont.wld = wld;
+	global.fog = fog;
 	
 	with UberCont
 	{

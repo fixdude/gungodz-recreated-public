@@ -8,8 +8,8 @@
   "name":"plane",
   "overriddenProperties":[],
   "parent":{
-    "name":"Assets",
-    "path":"folders/Objects/Assets.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"GameObject",

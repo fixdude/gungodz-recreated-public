@@ -1,19 +1,15 @@
 event_inherited();
-//scrAwareness();
+scrAwareness();
 
 if active == true
 {
 	if walk > 0
 	{
 		walk -= 1 fmt;
-		
-		if walk == round(walk)
-		{
-			if sprite_index != sprhurt && sprite_index != sprfire
-				sprite_index = sprwalk;
+		if sprite_index != sprhurt && sprite_index != sprfire
+			sprite_index = sprwalk;
 			
-			motion_add(direction, 1);
-		}
+		motion_addf(direction, 1);
 	}
 	else if sprite_index == sprwalk
 		sprite_index = spridle;

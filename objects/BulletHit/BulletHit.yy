@@ -10,8 +10,8 @@
   "name":"BulletHit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Effects",
-    "path":"folders/Objects/Effects.yy",
+    "name":"Projectiles",
+    "path":"folders/Objects/Projectiles.yy",
   },
   "parentObjectId":{
     "name":"plane",
